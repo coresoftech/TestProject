@@ -1,0 +1,49 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Testing",
+        "description": "",
+        "id": "home-page-testing;testing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "The Home page is available",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "fill Firstname and password",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "click on button",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Home Page Testing",
+    "description": "",
+    "id": "home-page-testing",
+    "keyword": "Feature",
+    "uri": "C:/Users/sweta.ranjan/Desktop/TestNG Report/26-Sept-2018/Toolsqa_Automation/src/main/java/com/ToolsqaFeatures/toolsqaForm.feature"
+  }
+]

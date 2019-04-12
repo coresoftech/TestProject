@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="5" tests="5" time="0">
+<testcase classname="Test iConnectYash smoke scenario" name="Test login with valid crendials  //For multiple data driven test" time="0">
+<skipped><![CDATA[Given Open chrome and start application.....................................undefined
+When I enter valid "1007518" and valid "password1"..........................undefined
+Then user should able to login into the application.........................undefined
+Then application should be closed...........................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Test iConnectYash smoke scenario" name="Test login with valid crendials  //For multiple data driven test 2" time="0">
+<skipped><![CDATA[Given Open chrome and start application.....................................undefined
+When I enter valid "1007518" and valid "password2"..........................undefined
+Then user should able to login into the application.........................undefined
+Then application should be closed...........................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Test iConnectYash smoke scenario" name="Test login with valid crendials  //For multiple data driven test 3" time="0">
+<skipped><![CDATA[Given Open chrome and start application.....................................undefined
+When I enter valid "1007518" and valid "password3"..........................undefined
+Then user should able to login into the application.........................undefined
+Then application should be closed...........................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Test iConnectYash smoke scenario" name="Test login with valid crendials  //For multiple data driven test 4" time="0">
+<skipped><![CDATA[Given Open chrome and start application.....................................undefined
+When I enter valid "1007518" and valid "password4"..........................undefined
+Then user should able to login into the application.........................undefined
+Then application should be closed...........................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Test iConnectYash smoke scenario" name="Successful LogOut" time="0">
+<skipped><![CDATA[When User LogOut from the Application.......................................undefined
+Then Message displayed LogOut Successfully..................................undefined
+]]></skipped>
+</testcase>
+</testsuite>

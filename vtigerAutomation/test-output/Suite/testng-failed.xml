@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="true">
+  <test name="Vtiger Automation(failed)" parallel="true">
+    <classes>
+      <class name="testCases.SignIn_TestCase">
+        <methods>
+          <include name="verifyToLogin"/>
+        </methods>
+      </class> <!-- testCases.SignIn_TestCase -->
+      <class name="testCases.Login_TestCase">
+        <methods>
+          <include name="verifyToLogin"/>
+        </methods>
+      </class> <!-- testCases.Login_TestCase -->
+      <class name="testCases.LogOut_TestCase">
+        <methods>
+          <include name="verifyToLogin"/>
+        </methods>
+      </class> <!-- testCases.LogOut_TestCase -->
+    </classes>
+  </test> <!-- Vtiger Automation(failed) -->
+</suite> <!-- Failed suite [Suite] -->

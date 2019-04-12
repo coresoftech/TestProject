@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="DealerPath24_09_2018"/>
+<listAttribute key="org.testng.eclipse.SUITE_TEST_LIST">
+<listEntry value="C:\Users\sweta.ranjan\Desktop\TestNG Report\26-Sept-2018\DealerPath24_09_2018\TestNG_XML\WCMTestingWithAddtionalTestcases.xml"/>
+</listAttribute>
+<intAttribute key="org.testng.eclipse.TYPE" value="3"/>
+</launchConfiguration>

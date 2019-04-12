@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\sweta.ranjan\Desktop\TestNG Report\26-Sept-2018\DealerPath24_09_2018"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="ToolSqa_Cucumber_Framework"/>
+			<item value="JDBC_Connection_Testing"/>
+			<item value="Selenium_Cucumber_Project"/>
+			<item value="vtigerAutomation"/>
+			<item value="DataDrivenProject"/>
+			<item value="LogicPractice"/>
+			<item value="LogicDemoPractice"/>
+			<item value="FreeDemo"/>
+			<item value="TestJava"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="ToolSqa_Cucumber_Framework"/>
+			<item value="JDBC_Connection_Testing"/>
+			<item value="Selenium_Cucumber_Project"/>
+			<item value="vtigerAutomation"/>
+			<item value="DataDrivenProject"/>
+			<item value="LogicPractice"/>
+			<item value="LogicDemoPractice"/>
+			<item value="FreeDemo"/>
+			<item value="TestJava"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\sweta.ranjan\Desktop\TestNG Report\26-Sept-2018\Cucumber_New_Project\pom.xml"/>
+			<item value="C:\Users\sweta.ranjan\Desktop\TestNG Report\26-Sept-2018\Cucumber_New_Project\src\test\java\stepDefination\test_step_def.java"/>
+			<item value="C:\Users\sweta.ranjan\Desktop\TestNG Report\26-Sept-2018\Selenium_Cucumber_Project"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="Toolsqa_Automation.Toolsqa_Automation"/>
+		</list>
+		<list key="groupId">
+			<item value="Toolsqa_Automation"/>
+		</list>
+		<list key="artifactId">
+			<item value="Toolsqa_Automation"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

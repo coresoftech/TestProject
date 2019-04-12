@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0">
+<testcase classname="Home Page Testing" name="Testing" time="0">
+<skipped><![CDATA[When The Home page is available.............................................undefined
+Then fill Firstname and password............................................undefined
+And click on button.........................................................undefined
+]]></skipped>
+</testcase>
+</testsuite>

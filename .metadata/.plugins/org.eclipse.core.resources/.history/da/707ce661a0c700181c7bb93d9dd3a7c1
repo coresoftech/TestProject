@@ -1,0 +1,77 @@
+package testing;
+import java.util.*;  
+import java.io.*;
+
+public class employee_Comparator 
+{
+
+	//Java Program to demonstrate the use of Java Comparable.  
+	//Creating a class which implements Comparable Interface  
+	  
+	class Employee implements Comparable<Employee>
+	{  
+		int empID;  
+		String empName;  
+		int empAge; 
+		String empContactNo;
+		String empDesignation;
+		
+		Employee(int empID, String empName, int empAge, String empContactNo, String empDesignation)
+		{  
+			this.empID=empID;
+			this.empName=empName;
+			this.empAge=empAge;
+			this.empContactNo=empContactNo;
+			this.empDesignation=empDesignation;			  
+		}  
+		public int compareTo(Employee em)
+		{  
+			if(empID==em.empID)  
+			return 0;  
+			else if(empID>em.empID) 
+			return 1;  
+			else  
+			return -1;  
+		}  
+	}  
+	
+	
+
+	
+	//Creating a test class to sort the elements  
+	/*class TestSort3
+	{  
+		public static void main(String args[])
+		{  
+			ArrayList<Student> al=new ArrayList<Student>();  
+			al.add(new Student(101,"Vijay",23));  
+			al.add(new Student(106,"Ajay",27));  
+			al.add(new Student(105,"Jai",21));  
+			  
+			Collections.sort(al);  
+			for(Student st:al)
+			{  
+				System.out.println(st.rollno+" "+st.name+" "+st.age);  
+			}  
+		}  
+	}  
+*/
+	
+	public static void main(String args[])
+	{ 
+		comparableAndComparator obj = new comparableAndComparator();
+	
+		ArrayList<Employee> al=new ArrayList<Employee>();  
+		al.add(obj.new employee_Comparator(100101,"Arjun",49,"8201876301","Software Engineer"));
+		
+		 
+		  
+		Collections.sort(al);  
+		for(Employee em:al)
+		{  
+			System.out.println(em.empID+" "+em.empName+" "+em.empAge+" "+em.empContactNo+" "+em.empDesignation);			
+		}		
+		obj.m3();
+	}
+}
+

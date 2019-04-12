@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29" started-at="2019-02-12T12:27:47Z" finished-at="2019-02-12T12:27:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29" started-at="2019-02-12T12:27:47Z" finished-at="2019-02-12T12:27:47Z">
+      <class name="helperClass.Link_Factory">
+        <test-method status="FAIL" signature="OpenBrowser(java.lang.String)[pri:0, instance:helperClass.Link_Factory@3fee9989]" name="OpenBrowser" is-config="true" duration-ms="0" started-at="2019-02-12T17:57:47Z" finished-at="2019-02-12T17:57:47Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Configuration on method OpenBrowser but has not been marked @Optional or defined
+in C:\Users\sweta.ranjan\AppData\Local\Temp\testng-eclipse--1395365107\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Configuration on method OpenBrowser but has not been marked @Optional or defined
+in C:\Users\sweta.ranjan\AppData\Local\Temp\testng-eclipse--1395365107\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="SKIP" signature="toGetAllLinkOnWebpage()[pri:0, instance:helperClass.Link_Factory@3fee9989]" name="toGetAllLinkOnWebpage" duration-ms="6" started-at="2019-02-12T17:57:47Z" finished-at="2019-02-12T17:57:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toGetAllLinkOnWebpage -->
+      </class> <!-- helperClass.Link_Factory -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

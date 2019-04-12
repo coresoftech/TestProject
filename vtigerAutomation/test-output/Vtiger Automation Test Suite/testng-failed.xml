@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Vtiger Automation Test Suite]">
+  <parameter name="browser" value="Chrome"/>
+  <test name="Vtiger Automation(failed)" parallel="true">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testCases.LogOut_TestCase">
+        <methods>
+          <include name="verifyToLogOut"/>
+        </methods>
+      </class> <!-- testCases.LogOut_TestCase -->
+      <class name="testCases.SignIn_TestCase">
+        <methods>
+          <include name="verifyToLogin"/>
+        </methods>
+      </class> <!-- testCases.SignIn_TestCase -->
+    </classes>
+  </test> <!-- Vtiger Automation(failed) -->
+</suite> <!-- Failed suite [Vtiger Automation Test Suite] -->

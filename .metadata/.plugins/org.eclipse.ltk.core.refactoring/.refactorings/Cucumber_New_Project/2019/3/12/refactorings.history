@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;feature_test.feature&apos; to &apos;features&apos;&#x0D;&#x0A;- Original project: &apos;Cucumber_New_Project&apos;&#x0D;&#x0A;- Destination element: &apos;features&apos;&#x0D;&#x0A;- Original element: &apos;feature_test.feature&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" element1="src/main/java/runner/feature_test.feature" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1553258257422" target="features" units="0" version="1.0"/>
+</session>

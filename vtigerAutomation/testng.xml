@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Vtiger Automation Test Suite" >
+    
+  <test name="Vtiger Automation" parallel ="true">
+  
+ <parameter name="browser" value="Chrome"> </parameter> 
+   	
+ 	<classes>
+ 	
+ 	<class name="helperClass.Browser_Factory"> 	</class>
+ 	
+ 	<class name="testCases.Login_TestCase"> 		 	
+ 	<methods>
+ 	<include name = "add"/> 
+ 		
+ 		<exclude name = "sub"/>
+ 		
+ 	</methods> 
+ 	</class>
+ 	
+ 	<class name="testCases.SignIn_TestCase"> 	</class> 	
+ 	
+ 		
+ 	<class name="testCases.LogOut_TestCase"> 	</class>
+ 		
+ 	</classes>
+  
+  </test>
+  
+  
+</suite> 
